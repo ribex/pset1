@@ -25,6 +25,18 @@ int main(void) {
             printf("#");
         }
 
+        printf("  ");
+
+        // print # blocks
+        for (int k = 0; k < i + 2; k++) {
+            printf("#");
+        }
+
+        // print spaces
+        for (int j = spaces - i; j > 0; j--) {
+            printf(" ");
+        }
+
         // print a newline per row
         printf("\n");
     }
