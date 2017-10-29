@@ -21,14 +21,14 @@ int main(void) {
         }
 
         // print # blocks
-        for (int k = 0; k < i + 2; k++) {
+        for (int k = 0; k < i + 1; k++) {
             printf("#");
         }
 
         printf("  ");
 
         // print # blocks
-        for (int k = 0; k < i + 2; k++) {
+        for (int k = 0; k < i + 1; k++) {
             printf("#");
         }
 
