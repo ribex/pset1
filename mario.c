@@ -32,11 +32,6 @@ int main(void) {
             printf("#");
         }
 
-        // print spaces
-        for (int j = spaces - i; j > 0; j--) {
-            printf(" ");
-        }
-
         // print a newline per row
         printf("\n");
     }
